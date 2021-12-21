@@ -1,4 +1,4 @@
-package com.example.navigation_screen
+package com.example.meal_app
 
 import io.flutter.embedding.android.FlutterActivity
 
