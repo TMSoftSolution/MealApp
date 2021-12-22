@@ -3,7 +3,7 @@ import '../dummy_data.dart';
 import '../widgets/meal_item.dart';
 
 class CategoryMealsScreen extends StatelessWidget {
-  static String routeName = 'category_meals';
+  static String routeName = '/category_meals';
 
   @override
   Widget build(BuildContext context) {
