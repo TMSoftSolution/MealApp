@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'models/meal.dart';
 
 import './models/category.dart';
 import './models/meal.dart';
@@ -67,7 +68,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg/800px-Spaghetti_Bolognese_mit_Parmesan_oder_Grana_Padano.jpg',
+        'https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -100,7 +101,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://media.istockphoto.com/photos/toast-hawaii-picture-id508673999',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -129,7 +130,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://media.istockphoto.com/photos/eggs-benedict-with-bacon-and-greens-isolated-on-white-background-picture-id1177116580',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -160,7 +161,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+        'https://media.istockphoto.com/photos/wiener-schnitzel-picture-id178509162',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -197,7 +198,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://media.istockphoto.com/photos/fresh-salad-picture-id97084594',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -232,7 +233,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://media.istockphoto.com/photos/white-chocolate-mousse-with-apricots-and-mint-picture-id1153078446',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -267,7 +268,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://media.istockphoto.com/photos/breakfast-picture-id494292144',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -298,7 +299,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Pricey,
     complexity: Complexity.Challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+        'https://media.istockphoto.com/photos/chole-masala-curry-traditional-indian-dish-picture-id1215493535',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -331,7 +332,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Affordable,
     complexity: Complexity.Hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://media.istockphoto.com/photos/chocolate-souffles-with-raspberrydessert-picture-id1089330300',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -382,7 +383,7 @@ const DUMMY_MEALS = const [
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://media.istockphoto.com/photos/fried-cod-fillet-with-fresh-vegetables-picture-id1251639748',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
